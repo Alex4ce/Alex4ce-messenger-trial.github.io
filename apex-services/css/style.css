@@ -134,12 +134,16 @@ h1,h2,h3,h4,h5,h6{
 .chatting{
 }
 
+
 .chatting-wrapper{
     display: flex;
     flex-wrap: wrap;
     gap: 30px 80px;
 }
 
+.chatting-left{
+    flex: 0 1 509px;
+}
 
 .chatting-rating-container{ 
     display: flex;
@@ -303,6 +307,8 @@ h1,h2,h3,h4,h5,h6{
     gap: 36px;
 }
 
+.video-chat-left{}
+
 .video-chat__img-box{
     position: relative;
 }
@@ -332,6 +338,11 @@ h1,h2,h3,h4,h5,h6{
 .video-chat__footer img:last-child{
     margin-left: auto;
 }
+
+.video-chat-right{
+    flex: 0 1 511px;
+}
+
 
 .video-chat__subtitle{
     margin-bottom: 28px;
@@ -364,7 +375,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .selling-left{
-
+    flex: 0 1 518px;
 }
 
 .selling-title{
@@ -377,10 +388,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .selling-right{
+    flex: 0 1 366px;
 }
 
 .selling-chat{
-    max-width: 366px;
+    /* max-width: 366px; */
     padding: 26px;
     border-radius: 8.858px;
     background: #FFF;
